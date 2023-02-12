@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:image_carousel/screens/change_screen.dart';
+import 'package:image_carousel/screens/home_screen.dart';
 
 void main() {
-  runApp(Container());
+  runApp(const MaterialApp(
+    home: ChangeScreen(),
+  ));
 }
